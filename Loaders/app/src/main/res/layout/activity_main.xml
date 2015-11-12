@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/indigo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtV"
+        android:text="@string/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/titulo"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Siguiente"
+        android:layout_below="@+id/txtV"
+        android:text="@string/click"
+        android:textColor="@color/rosa"
+        android:textSize="@dimen/texto"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <ListView
+        android:id="@+id/ListV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        />
+
+
+
+</RelativeLayout>

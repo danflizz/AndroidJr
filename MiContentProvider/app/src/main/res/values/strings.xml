@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiContentProvider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Mis Llamadas</string>
+    <string name="resultado">Resultado de Log de llamadas</string>
+    <string name="entrada">Llamada entrante</string>
+    <string name="salida">Llamada saliente</string>
+    <string name="perdida">Llamada perdida</string>
+    <string name="numero">Número:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="duracion">Duración:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="indefinido">Indefinido</string>
+    <string name="buzon">Buzón de voz</string>
+</resources>

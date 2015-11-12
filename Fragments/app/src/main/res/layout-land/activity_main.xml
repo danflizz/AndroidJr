@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fgLista"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:name="holamundo.com.dany.fragments.FragmentList"
+        tools:layout="@layout/fragment1"
+        android:layout_weight="6"
+        >
+
+    </fragment>
+    <fragment
+        android:id="@+id/fgdetalle"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:name="holamundo.com.dany.fragments.FragmentDetalle"
+        tools:layout="@layout/fragment2"
+        android:layout_weight="4"
+        />
+
+</LinearLayout>

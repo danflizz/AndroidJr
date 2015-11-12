@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">Email</string>
+    <string name="guardar">Guardar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="exito">Registro guardado exitosamente!</string>
+    <string name="exitoborrar">Registros borrados exitosamente!</string>
+    <string name="registro">Registros</string>
+    <string name="borrar">Borrar</string>
+
+
+</resources>

@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="@string/registro"
+        android:textSize="@dimen/titulo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/azul"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTNombre"
+                android:hint="@string/nombre"
+                android:textSize="@dimen/texto"
+                android:textColor="@color/rosa"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTtelefono"
+                android:hint="@string/telefono"
+                android:textSize="@dimen/texto"
+                android:inputType="phone"
+                android:textColor="@color/rosa"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTtwitter"
+                android:hint="@string/twitter"
+                android:textSize="@dimen/texto"
+                android:textColor="@color/rosa"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edTcorreo"
+                android:hint="@string/email"
+                android:textSize="@dimen/texto"
+                android:textColor="@color/rosa"/>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/buttonBarButtonStyle"
+                android:textSize="@dimen/texto1"
+                android:textColor="@color/naranja"
+                android:text="@string/guardar"
+                android:onClick="guardarDatos"/>
+
+            <Button
+                android:id="@+id/btnShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/buttonBarButtonStyle"
+                android:textSize="@dimen/texto1"
+                android:textColor="@color/naranja"
+                android:text="@string/mostrar"
+                android:onClick="mostrarDatos"/>
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/buttonBarButtonStyle"
+                android:textSize="@dimen/texto1"
+                android:textColor="@color/naranja"
+                android:text="@string/borrar"
+                android:onClick="borrarDatos"/>
+            <TextView
+                android:id="@+id/registro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                />
+            <TextView
+                android:id="@+id/contenidoRegis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>
